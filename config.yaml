@@ -1,0 +1,50 @@
+# Polar sea-ice timing analysis — reference period through April 2026
+project:
+  title: "Arctic and Antarctic sea-ice timing trends (April 2026)"
+  institution: "University of Hamburg"
+  author: "Omkar Kondhalkar"
+  analysis_reference: "April 2026"
+
+dates:
+  data_cutoff: "2026-04-30"
+  # Arctic: melt-season window for hemispheric SIA minimum
+  arctic_melt_month_start: 7
+  arctic_melt_month_end: 12
+  arctic_era_start: 1979
+
+paths:
+  osisaf_daily_sia: "data/raw/osisaf/ice_area_nh_sii-v3p0_daily.txt"
+  nsidc_daily_extent: "data/raw/nsidc/N_seaice_extent_daily_v4.0.csv"
+  afin_dir: "data/raw/afin"
+  results_dir: "results"
+  figures_dir: "results/figures"
+  tables_dir: "results/tables"
+
+# AFIN Atka Bay manual surveys (Neumayer III) — PANGAEA bibliography 908860
+antarctic:
+  era_start: 2010
+  era_end: 2018
+  station: "Neumayer III / Atka Bay"
+  network: "AFIN"
+  pangaea_dois:
+    2010: "10.1594/PANGAEA.889292"
+    2011: "10.1594/PANGAEA.889291"
+    2012: "10.1594/PANGAEA.889289"
+    2013: "10.1594/PANGAEA.889286"
+    2014: "10.1594/PANGAEA.889283"
+    2015: "10.1594/PANGAEA.889281"
+    2016: "10.1594/PANGAEA.889270"
+    2017: "10.1594/PANGAEA.889250"
+    2018: "10.1594/PANGAEA.908620"
+
+analysis:
+  bootstrap_iterations: 5000
+  bootstrap_seed: 42
+  confidence_level: 0.95
+  significance_alpha: 0.05
+
+plot:
+  dpi: 300
+  arctic_figure: "arctic_sia_minimum_doy_trend.png"
+  antarctic_figure: "antarctic_fast_ice_breakup_doy_trend.png"
+  combined_figure: "polar_ice_timing_comparison.png"

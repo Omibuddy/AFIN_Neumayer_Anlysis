@@ -1,0 +1,13 @@
+# Arctic sea-ice minimum timing analysis
+# Tested on Python 3.11+ (macOS Apple Silicon)
+
+numpy>=1.24
+pandas>=2.0
+scipy>=1.11
+matplotlib>=3.8
+PyYAML>=6.0
+xarray>=2024.1
+netCDF4>=1.6
+
+# Optional: non-parametric Mann-Kendall test
+# pymannkendall>=1.4

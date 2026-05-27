@@ -1,0 +1,22 @@
+# Assignment brief (Sea Ice 2026)
+
+**Research question:** Has the day-of-year of the Arctic sea ice area annual minimum shifted over the satellite era?
+
+- **(a)** Has the minimum shifted earlier or later?
+- **(b)** Why it matters: An earlier minimum means a longer melt season and more albedo feedback — directly relevant to Prof. Notz's CO₂–sea ice work.
+- **(c)** What you did: Daily Arctic SIA (OSI SAF / UHH-compatible lineage), day-of-year of annual minimum per year, linear trend + significance.
+- **(d)** Result: One plot — day-of-year of SIA minimum vs. year, trend line, confidence interval.
+
+## One-pager structure
+
+| Section | Content |
+|---------|---------|
+| Title | Your research question |
+| Author | Your name(s) |
+| Introduction | Single paragraph: what and why |
+| Methods | (a) procedure, (b) rationale, (c) uncertainties |
+| Results | Single figure + 1–2 paragraphs interpretation |
+
+---
+
+**Implementation:** see [README.md](README.md) for the full reproducible project (code, data, April 2026 analysis, LaTeX report).

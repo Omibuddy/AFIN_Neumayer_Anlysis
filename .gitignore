@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# LaTeX build artifacts
+report/*.aux
+report/*.log
+report/*.out
+report/*.pdf
+report/*.synctex.gz
+
+# Optional: omit raw data if using download script only (uncomment to shrink repo)
+# data/raw/
