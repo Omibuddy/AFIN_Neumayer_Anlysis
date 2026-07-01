@@ -48,3 +48,15 @@ plot:
   arctic_figure: "arctic_sia_minimum_doy_trend.png"
   antarctic_figure: "antarctic_fast_ice_breakup_doy_trend.png"
   combined_figure: "polar_ice_timing_comparison.png"
+  sensitivity_figure: "arctic_sia_minimum_vs_doy_dual_axis.png"
+  aug31_scatter_figure: "arctic_aug31_sia_vs_min_doy.png"
+  spatial_heatmap_figure: "fig5_spatial_heatmap.png"
+  antarctic_calendar_figure: "antarctic_afin_calendar.png"
+
+data:
+  nsidc_cdr_version: 6
+  nsidc_cdr_dir: "data/raw/nsidc_cdr_v6"
+  nsidc_cdr_base_url: "https://noaadata.apps.nsidc.org/NOAA/G02202_V6/north/monthly"
+  arctic_subset_years: [1979, 2025]
+  arctic_lat_min: 60.0
+  grid_size: 160

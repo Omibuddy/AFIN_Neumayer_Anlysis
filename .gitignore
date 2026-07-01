@@ -27,6 +27,9 @@ report/*.log
 report/*.out
 report/*.pdf
 report/*.synctex.gz
+report/*.nav
+report/*.snm
+report/*.toc
 
-# Optional: omit raw data if using download script only (uncomment to shrink repo)
-# data/raw/
+# Large gridded downloads (fetch via scripts/download_gridded.py)
+data/raw/nsidc_cdr_v6/

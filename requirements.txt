@@ -9,5 +9,10 @@ PyYAML>=6.0
 xarray>=2024.1
 netCDF4>=1.6
 
+# Phase 2 spatial analysis
+cartopy>=0.22
+pyproj>=3.6
+requests>=2.31
+
 # Optional: non-parametric Mann-Kendall test
 # pymannkendall>=1.4

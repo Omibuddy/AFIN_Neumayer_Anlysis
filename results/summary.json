@@ -10,10 +10,10 @@
     "trend": {
       "slope_days_per_year": -0.07735892691951897,
       "intercept": 403.5108695652174,
-      "r_value": -0.0683472295653601,
-      "p_value": 0.6480433415660735,
-      "std_err": 0.1683319361195393,
-      "ci_lower": -0.4865259653244325,
+      "r_value": -0.06834722956536009,
+      "p_value": 0.6480433415660733,
+      "std_err": 0.16833193611953937,
+      "ci_lower": -0.4865259653244328,
       "ci_upper": 0.19391725092617876,
       "theil_sen_slope": 0.0625,
       "theil_sen_ci_lower": -0.09523809523809523,
@@ -31,10 +31,10 @@
     "nsidc_extent_sensitivity": {
       "slope_days_per_year": 0.07227104532839963,
       "intercept": 111.50485661424605,
-      "r_value": 0.1884960053746626,
-      "p_value": 0.20448519909600602,
-      "std_err": 0.05613065662041184,
-      "ci_lower": -0.03798379520005261,
+      "r_value": 0.18849600537466268,
+      "p_value": 0.20448519909600588,
+      "std_err": 0.05613065662041181,
+      "ci_lower": -0.037983795200052635,
       "ci_upper": 0.18329650376936588,
       "theil_sen_slope": 0.06666666666666667,
       "theil_sen_ci_lower": -0.0625,
@@ -62,11 +62,11 @@
     "trend": {
       "slope_days_per_year": 29.45,
       "intercept": -59104.411111111105,
-      "r_value": 0.4637393831261977,
-      "p_value": 0.20862759412427068,
+      "r_value": 0.46373938312619767,
+      "p_value": 0.2086275941242706,
       "std_err": 21.265819819433077,
       "ci_lower": -11.599499296046814,
-      "ci_upper": 71.48759896658055,
+      "ci_upper": 71.48759896658052,
       "theil_sen_slope": 5.5,
       "theil_sen_ci_lower": 1.0,
       "theil_sen_ci_upper": 81.75,
@@ -83,5 +83,5 @@
     "figure": "results/figures/antarctic_fast_ice_breakup_doy_trend.png"
   },
   "combined_figure": "results/figures/polar_ice_timing_comparison.png",
-  "generated_at": "2026-05-27T09:01:19.918347+00:00"
+  "generated_at": "2026-07-01T14:03:51.977585+00:00"
 }
